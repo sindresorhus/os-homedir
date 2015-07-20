@@ -1,6 +1,6 @@
 {
   "name": "os-homedir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "io.js 2.3.0 os.homedir() ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/os-homedir",
