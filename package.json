@@ -1,7 +1,7 @@
 {
   "name": "os-homedir",
   "version": "1.0.1",
-  "description": "io.js 2.3.0 os.homedir() ponyfill",
+  "description": "Node.js 4.0 `os.homedir()` ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/os-homedir",
   "author": {
@@ -19,7 +19,7 @@
     "index.js"
   ],
   "keywords": [
-    "built-in",
+    "builtin",
     "core",
     "ponyfill",
     "polyfill",
