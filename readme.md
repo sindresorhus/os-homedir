@@ -15,10 +15,10 @@ $ npm install --save os-homedir
 ## Usage
 
 ```js
-var osHomedir = require('os-homedir');
+const osHomedir = require('os-homedir');
 
 console.log(osHomedir());
-//=> /Users/sindresorhus
+//=> '/Users/sindresorhus'
 ```
 
 
