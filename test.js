@@ -1,11 +1,9 @@
-'use strict';
-var test = require('ava');
-var pathExists = require('path-exists');
-var osHomedir = require('./');
+import test from 'ava';
+import pathExists from 'path-exists';
+import fn from './';
 
-test(function (t) {
-	var homeDir = osHomedir();
-	t.assert(homeDir.length > 0);
-	t.assert(pathExists.sync(homeDir));
-	t.end();
+test(t => {
+	const homeDir = fn();
+	t.true(homeDir.length > 0);
+	t.true(pathExists.sync(homeDir));
 });
