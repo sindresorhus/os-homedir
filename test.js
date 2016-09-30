@@ -1,9 +1,9 @@
 import test from 'ava';
 import pathExists from 'path-exists';
-import fn from './';
+import m from './';
 
 test(t => {
-	const homeDir = fn();
+	const homeDir = m();
 	t.true(homeDir.length > 0);
 	t.true(pathExists.sync(homeDir));
 });

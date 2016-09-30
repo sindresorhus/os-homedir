@@ -1,7 +1,7 @@
 {
   "name": "os-homedir",
   "version": "1.0.1",
-  "description": "Node.js 4.0 `os.homedir()` ponyfill",
+  "description": "Node.js 4 `os.homedir()` ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/os-homedir",
   "author": {
@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "ava"
+    "test": "xo && ava"
   },
   "files": [
     "index.js"
@@ -35,6 +35,7 @@
   ],
   "devDependencies": {
     "ava": "*",
-    "path-exists": "^2.0.0"
+    "path-exists": "^2.0.0",
+    "xo": "^0.16.0"
   }
 }
