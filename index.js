@@ -10,11 +10,11 @@ function homedir() {
 		return env.USERPROFILE || env.HOMEDRIVE + env.HOMEPATH || home || null;
 	}
 
-	if (process.platform === 'darwin') {
+	else if (process.platform === 'darwin') {
 		return home || (user ? '/Users/' + user : null);
 	}
 
-	if (process.platform === 'linux') {
+	else if (process.platform === 'linux') {
 		return home || (process.getuid() === 0 ? '/root' : (user ? '/home/' + user : null));
 	}
 
