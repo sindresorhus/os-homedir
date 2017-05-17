@@ -1,3 +1,10 @@
+# Deprecated
+
+This is not needed anymore. Use `require('os').homedir()` instead.
+
+---
+
+
 # os-homedir [![Build Status](https://travis-ci.org/sindresorhus/os-homedir.svg?branch=master)](https://travis-ci.org/sindresorhus/os-homedir)
 
 > Node.js 4 [`os.homedir()`](https://nodejs.org/api/os.html#os_os_homedir) [ponyfill](https://ponyfill.com)
